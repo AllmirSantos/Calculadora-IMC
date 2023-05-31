@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <main>
+        <div class="titleTop">Calculadora IMC</div>
+        <div class="form">
+          <input type="text" id="name" autocomplete="off" required />
+          <label for="text" class="label-name">
+            <span class="content-name"> Nome </span>
+          </label>
+        </div>
+
+        <div class="form">
+          <input type="text" id="altura" autocomplete="off" required />
+          <label for="text" class="label-name">
+            <span class="content-name"> Altura </span>
+          </label>
+        </div>
+
+        <div class="form">
+          <input type="number" id="peso" required />
+          <label for="text" class="label-name">
+            <span class="content-name"> Peso </span>
+          </label>
+        </div>
+
+        <button id="calcular">Calcular</button>
+
+        <div class="result" id="resultado"></div>
+      </main>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
